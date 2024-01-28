@@ -14,7 +14,14 @@ def maps(nb_petals):
   if n==0: # 12%6
     return "not at all"
 
-a = int(input("Enter the digit of petals: "))
-print(maps(a))
+#a = int(input("Enter the digit of petals: "))
+print(maps(6))
 
-#
+# Sum arrays
+def sum(a):
+  return sum(a)
+
+# Beginner - Lost Without a Map
+def maps(a):
+  arr = [val*2 for val in a]
+  return arr
