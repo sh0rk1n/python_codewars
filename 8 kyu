@@ -1,3 +1,4 @@
+# I love you, a little , a lot, passionately ... not at all
 def maps(nb_petals):
   n = nb_petals % 6
   if n==1: # 7%6
@@ -15,3 +16,5 @@ def maps(nb_petals):
 
 a = int(input("Enter the digit of petals: "))
 print(maps(a))
+
+#
