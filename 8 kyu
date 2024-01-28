@@ -25,3 +25,9 @@ def sum(a):
 def maps(a):
   arr = [val*2 for val in a]
   return arr
+
+def monkey_count(n):
+  res =[i for i in range(1,n)]
+  res.append(n)
+  return res
+print(monkey_count(5))
