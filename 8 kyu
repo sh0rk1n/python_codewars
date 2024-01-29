@@ -47,3 +47,11 @@ def sum_array(arr):
     return sum(arr)
   except:
     return 0
+# Find Multiples of a Number
+  def find_multiples(integer, limit):
+    arr=[]
+    c = integer
+    while c<= limit:
+      arr.append(c)
+      c+=integer
+    return arr
